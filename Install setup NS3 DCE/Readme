@@ -1,0 +1,10 @@
+What is a Docker Container??
+
+A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+
+Please go through the following links to get more insights about containerization and Docker platform.
+https://www.cio.com/article/2924995/what-are-containers-and-why-do-you-need-them.html
+https://www.docker.com/resources/what-container
+
+In this project, we are using NS-3 DCE(Direct Code Execution) to allign ns3 TCP Cubic with linux TCP Cubic. DCE is not compatible with Ubuntu 18.04 LTS, so we cannot install it straightaway with standard set of commands given in official documentation of NS-3 DCE (https://www.nsnam.org/docs/dce/manual/html/getting-started.html) and hence we are using a Docker Image of DCE to install it.  
+
